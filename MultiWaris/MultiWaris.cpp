@@ -30,4 +30,5 @@ public:
 	{
 		cout << "pekerja dibuat\n" << endl;
 	}
+
 };
