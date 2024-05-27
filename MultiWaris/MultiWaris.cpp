@@ -47,4 +47,5 @@ int main() {
 	jihat a(12);
 
 	return 0;
+
 }
