@@ -32,3 +32,19 @@ public:
 	}
 
 };
+
+
+class jihat : public pekerja, public pelajar {
+	jihat(int pUmur) : 
+		pekerja(pUmur),
+		pelajar(pUmur)
+	{
+		cout << "Jihat dibuat\n" << endl;
+	}
+};
+
+int main() {
+	jihat a(12);
+
+	return 0;
+}
